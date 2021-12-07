@@ -22,8 +22,11 @@
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <maven-wildfly-plugin.version>2.0.2.Final</maven-wildfly-plugin.version>
 
-		<!-- build.outputDirectory>${project.basedir}/target</build.outputDirectory-->
+		<!---->
+		<build.outputDirectory>${project.basedir}/target</build.outputDirectory>
+		<!--
 		<build.outputDirectory>${project.basedir}/../../../git/sshfs-keycloak/standalone/deployments</build.outputDirectory>
+		-->
 		<source.outputDirectory>${project.basedir}/target</source.outputDirectory>
 		<attach.sources.phase>none</attach.sources.phase>
     </properties>
